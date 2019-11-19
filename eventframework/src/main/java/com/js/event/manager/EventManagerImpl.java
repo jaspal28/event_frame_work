@@ -44,7 +44,7 @@ public class EventManagerImpl implements EventManager {
 	private static final EventListenerPriority DEFAULT_LISTENER_PRIORITY = EventListenerPriority.DEFAULT;
 
 	/*
-	 * Listener store !TODO: Change to use Concurrent collections
+	 * Listener store
 	 */
 	private Map<Object, List<EventListenerRegistration>> eventListenerMap;
 
